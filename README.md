@@ -41,12 +41,25 @@ https://www.putler.com/rfm-analysis
     - Table 1 for RFM-Quintiles
     - Table 2 for RFM-KMeans
 5. Visualize the number of segments across different data dimensions.
+
+<p align="center">
+  <img src="segmentation_result/RFM-kmeans-output.png" alt="ERD">
+</p>
+
+<p align="center"><strong>Figure 1. The segmentation result of RFM-Quintiles</strong></p>
+
+<p align="center">
+  <img src="segmentation_result/RFM-quintile-output.png" alt="ERD">
+</p>
+
+<p align="center"><strong>Figure 2. The segmentation result of RFM-Kmeans</strong></p>
+
 6. Analyze the current situation of the company and provide insights for the marketing team. (answer below)
 7. Recommend which RFM index (R, F, or M) should be prioritized for marketing and sales efforts, especially in the context of a retail model such as the pizza dataset. (answer below)
 
 ## **Definition and recommended action for each customer segment:**
 
-<p align="center"><strong>Table 1. the classification table of RFM-Quintiles</strong></p>
+<p align="center"><strong>Table 1. The classification table of RFM-Quintiles</strong></p>
 
 | **Segment**     | **Characteristics**   | **Recommendation**   | 
 | ------------- | ------------- | ------------- | 
@@ -68,6 +81,10 @@ https://www.putler.com/rfm-analysis
   
 | **Segment**     | **Characteristics**   | **Recommendation**   | 
 | ------------- | ------------- | ------------- | 
-|  - Cluster 0 |	Purchase some time ago, average frequency, and spending. | Offering personalized communications and loyalty rewards can help strengthen the bond with these customers and increase their long-term value |
-| New Customers - Cluster 1 |	Recent shoppers, low frequency and spending. | Emphasizing customer relationship management to enhance shopping experience and hence strengthen the engagement |
-| At risk of leaving/churned - Cluster 2 |	Frequent and heavy spent shoppers. It has been some time since last transaction. | Figuring out the reasons of leaving. Customized marketing plans encouraging purchase again. |
+| Cluster 0 |	Purchase some time ago, average frequency, and spending. | Offering personalized communications and loyalty rewards can help strengthen the bond with these customers and increase their long-term value |
+| Cluster 1 |	Recent shoppers, low frequency and spending. | Emphasizing customer relationship management to enhance shopping experience and hence strengthen the engagement |
+| Cluster 2 |	Frequent and heavy spent shoppers. It has been some time since last transaction. | Figuring out the reasons of leaving. Customized marketing plans encouraging purchase again. |
+
+## Contact
+
+For any questions or feedback, please contact via email: l.vikiet21@gmail.com
